@@ -1,0 +1,5 @@
+# Add this to the end of /etc/sudoers
+# Allow the webserver to start the scripts as the user that runs the minecraft instances
+www-data ALL=(minecraft) NOPASSWD: /home/minecraft/tools/profiler/start-5.sh
+www-data ALL=(minecraft) NOPASSWD: /home/minecraft/tools/profiler/start-6.sh
+www-data ALL=(minecraft) NOPASSWD: /home/minecraft/tools/profiler/start-8.sh
